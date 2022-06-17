@@ -1,0 +1,522 @@
+.head1 {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.rcontent {
+  margin: 15px 0px 0px 70px;
+}
+.rcontent ul {
+  display: flex;
+  vertical-align: text-top;
+  padding: 12px 100px;
+  justify-content: space-between;
+}
+.rcontent ul li {
+  color: rgb(13, 13, 13);
+}
+.back_img1 {
+  width: 100%;
+  height: 65vh;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  padding: 20px 0px 0px 100px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.logo h1 {
+  color: #fff;
+  font-size: 35px;
+  margin: 6px 0 0px 26px;
+}
+.rcontent li {
+  padding: 0.5rem;
+  position: relative;
+}
+.banner {
+  justify-content: center;
+}
+.banner1 {
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+.banner1 h1 {
+  padding-top: 117px;
+  color: aliceblue;
+  font-size: 45px;
+  margin-left: 160px;
+}
+.banner1 h2 {
+  font-size: 28px;
+  color: #fff;
+  margin: 25px 0px 30px 174px;
+}
+.spanbutton {
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 10px 28px;
+    /* padding: 4px 30px 6px 30px; */
+    border: 2px solid #85b0be;
+    color: #85b0be;
+    font-weight: 500;
+}
+.spanbutton span {
+  border-radius: 4px;
+   padding: 10px 28px;
+    border: 2px solid #85b0be;
+    color: #85b0be;
+    font-weight: 500;
+}
+.content1 {
+  display: flex;
+  margin: 51px 0px 0px 95px;
+}
+.content-1 {
+  width: 100%;
+  margin-right: -130px;
+}
+.content-1 h2 {
+  line-height: 60px;
+  font-size: 44px;
+  margin: 0px -87px 0px 30px;
+}
+.content-1 p {
+  margin: 27px 0px 0px 0px;
+  font-size: 30px;
+}
+.content-2 {
+  margin: -16px 100px 0px 230px;
+  line-height: 23px;
+}
+.content-2 ul {
+  margin: 25px 0px 0px 30px;
+  line-height: 15px;
+}
+.content-2 p {
+  margin: 19px 0px 0px 0px;
+}
+.ser {
+  background-color: #f6f9fa;
+  margin-top: 165px;
+  padding: 80px 50px;
+}
+.ser h1 {
+  text-align: center;
+  justify-content:center ;
+  font-size: 37px;
+  color: #052c3f;
+  margin: 25px 0px 0px 125x;
+}
+ 
+ 
+.ser p{
+ 
+  line-height: 24px;
+  font-size: 14px;
+}
+     
+   
+.ser h2 {
+  justify-content: center;
+  text-align: center;
+  margin: 28px 0px 0px 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lore {
+  display: flex;
+  padding: 0px 0px;
+  margin: 30px 0px 0px 0px;
+  column-gap: 10px;
+}
+.lore h3 {
+  font-size: 25px;
+}
+ 
+
+/* .mag { 
+  display: flex;
+  margin: 30px 0px 0px 100px;
+  column-gap: 10px;
+}*/
+.lore1 {
+  display: flex;
+  padding: 0px 0px;
+  margin: 30px 0px 0px 0px;
+  column-gap: 10px;
+
+  
+}
+.service {
+  display: flex;
+  width: 350px;
+  margin: 9px 0px 0px 50px;
+}
+.service i{
+  color: #649aac;
+  font-size: 23px;
+  margin: 10px 0px -3px 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid #85b0be;
+    
+}
+.s1{
+  margin-left: 25px;
+}
+.service1 {
+  display: flex;
+  margin: 9px 0px 0px 50px;
+  width: 350px;
+}
+.service1 i{
+    font-size: 23px;
+    color: #649aac;
+    margin: 10px 0px -3px 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 2px solid #85b0be;
+}
+ 
+.autem {
+  display: flex;
+  padding: 20px 50px;
+}
+.autem img {
+  border-radius: 1;
+  width: 350px;
+  margin: 0px 10px 0px 50px;
+}
+.autem h2 {
+  font-size: 25px;
+  margin: 0px 10px 0px 50px;
+}
+.autem p {
+  font-size: 20px;
+  margin: 0px 10px 0px 50px;
+}
+.autem h3 {
+  font-size: 21px;
+  border: 5px;
+  border-color: black;
+  margin: 0px 10px 0px 50px;
+}
+.c1 {
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+.back-img2 {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/testimonials-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+/* .back-clr {
+  width: 100%;
+  height: 60vh;
+  background-color: gray;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+} */
+
+/* .back-img2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+} */
+/* .back-img5{
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(194, 190, 190);
+  opacity: 50%;
+  background-size: cover;
+  position: relative; 
+}*/
+.rimg {
+  justify-content: center;
+  text-align: center;
+  opacity: 100%;
+}
+.rimg img {
+  width: 90px;
+  border-radius: 131px;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 60px 0 0px 0px;
+}
+.rimg h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+.rimg h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+.rimg p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+.portfolio {
+  padding: 20px 0px 20px 70px;
+}
+.portfolio h1 {
+  justify-content: center;
+  text-align: center;
+}
+.port {
+  display: flex;
+  flex-wrap: wrap;
+}
+.port img {
+  width: 350px;
+  border-radius: 0;
+  padding: 0px 20px;
+  vertical-align: middle;
+}
+.portfo {
+  padding: 10px 40px;
+}
+.team {
+  padding: 80px 50px 50px 90px;
+  background-color: #f6f9fa;
+}
+.team11 {
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+ 
+.team1 {
+  display: flex;
+  padding: 40px 15px 0px 20px;
+  
+}
+ 
+.team2{
+   
+  border-radius: 05px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+    
+     
+ 
+}
+.info{
+    background-color: #fff;
+    padding: 13px 2px;
+    margin: -12px 16px 0px 14px;
+ 
+}
+.team2 img {
+  width: 260px;
+  padding: 10px 15px;
+  border-radius: 4%;
+} 
+.fre {
+  width: 80%;
+  padding: 20px 170px 0px 90px;
+}
+.fre h3 {
+  justify-content: center;
+  text-align: center;
+}
+.frequent {
+  display: flex;
+  padding: 40px 15px 40px 30px;
+}
+.frequent i{
+  color: #85b0be;
+  font-size: 22px;
+   
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 23px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid #85b0be;
+}
+.f1{
+  margin: 0px 0px 0px 10px;
+}
+.freq1{
+  padding: 0px 10px 0px 10px;
+  
+}
+.freq3{
+  display: flex;
+  height: 125px;
+}
+.freq2{
+  display: flex;
+  height: 125px;
+}
+/* .freq1 {
+  padding: 0px 10px 0px 10px;
+}
+.freq2 {
+  padding: 10px 10px 10px 0px;
+  line-height: 20px;
+  height: 125px;
+}
+.freq2 h2 {
+  font-size: 20px;
+  position: relative;
+  margin: 0px 0px 0px 35px;
+}
+.freq5{
+  display: flex;
+}
+.freq2 p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.freq3 {
+  padding: 10px 10px 20px 0px;
+  line-height: 20px;
+  height: 125px;
+}
+.freq3 h2 {
+  font-size: 20px;
+  position: relative;
+  margin: 0px 0px 0px 35px;
+}
+.freq3 p {
+  margin-top: 20px;
+  font-size: 15px;
+} */
+
+.icofont-question-circle {
+  position: absolute;
+
+  font-size: 35px;
+  float: left;
+}
+
+.contact h2 {
+  justify-content: center;
+  text-align: center;
+}
+.foot {
+  width: 100%;
+  height: 70vh;
+  background: url("../img/footer-bg.jpg") top center no-repeat;
+  color: #fff;
+  font-size: 14px;
+  background-size: cover;
+  position: relative;
+}
+.foot1 {
+  padding: 100px 0px;
+}
+.foot1 h2 {
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+.foot1 p {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.map {
+  width: 100%;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+#contact-container{
+  background-color: #f6f9fa;
+}
+.contact {
+  background-color: #f6f9fa;
+  height: 500px;
+}
+.contact h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.contact1{
+  display: flex;
+  height: 100px;
+  background-color: #fff;
+  margin: 0px 300px 0px 300px;
+}
+.con1{
+  display: flex;
+  padding: 30px 20px;
+}
+.con1 i{
+  font-size: 20px;
+  padding: 5px 10px;
+}
+ @media (min-width: 390px){
+  .header .logo h1{
+    font-size: 10px;
+     
+   }
+ }
+ @media (max-width: 390px) {
+  #banner {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 350px) {
+  #banner h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #banner h2 {
+    font-size: 8px;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+}
+
